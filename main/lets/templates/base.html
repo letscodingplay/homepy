@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>렛츠코딩앤플레이</title>
+      {% load static %}
+      <link
+        rel="stylesheet"
+        href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+      />
+      
+      <script src="{% static 'lets/js/jquery-1.12.1.min.js' %}"></script>
+      
+      
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <link rel="stylesheet" href="{% static 'lets/css/css.css'%} ">
+
+      <!-- meta -->
+      <meta name="Title" content="렛츠코딩앤플레이">
+      <meta name="Description" content="전주혁신도시 코딩학원">
+      <meta name="Keywords" content="">
+      <meta name="Author" content="">
+
+      <!-- twitter -->
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:site" content="@WEBSITE">
+      <meta name="twitter:title" content="렛츠코딩앤플레이">
+      <meta name="twitter:description" content="전주혁신도시 코딩학원">
+      <meta name="twitter:url" content="">
+      <meta name="twitter:image" content="{% static 'lets/img/og.jpg' %}">
+
+      <!-- opengraph -->
+      <meta property="og:type" content="website">
+      <meta property="og:site_name" content="렛츠코딩앤플레이">
+      <meta property="og:title" content="렛츠코딩앤플레이">
+      <meta property="og:description" content="전주혁신도시 코딩학원">
+      <meta property="og:image" content="{% static 'lets/img/og.jpg' %}">
+      <meta property="og:url" content="">
+      {% block extrahead %}
+      {% endblock %}
+    </head>
+    <body>
+        
+        <div id="wrap">
+          <header>
+            <div id="headerWrap">
+              {% include "inc/header.html" %}
+            </div>
+          </header>
+          {% block content %}
+          {% endblock %}
+          <footer>
+            <div id="footerWrap">
+              {% include "inc/footer.html" %}
+            </div>
+          </footer>
+        </div>
+    </body>
+</html>

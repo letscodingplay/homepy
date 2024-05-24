@@ -1,0 +1,441 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block extrahead %}
+<link rel="stylesheet" href="{%static 'lets/css/paging.css'%}"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+<style>
+    
+</style>
+{% endblock %}
+
+{% block content %}
+
+<div class="cont-title-wrap">
+    <strong>렛츠코딩앤플레이를 소개합니다.</strong>
+</div>
+
+<div class="section1">
+    <div class="item">
+        <img src="" alt="icon">
+        <b>지속적인 커리큘럼</b>
+        <p>다양한 연령을 대상으로 프로그래밍 기초부터 고급까지 아우르는 지속적인 교육과정을 운영합니다.</p>
+    </div>
+    <div class="item">
+        <img src="" alt="icon">
+        <b>실전 중심 학습</b>
+        <p>단순한 문법 학습에 그치지 않고 실제 프로젝트를 제작하며 실무 프로그래밍 능력을 향상시킵니다. </p>
+    </div>
+    <div class="item">
+        <img src="" alt="icon">
+        <b>자격증 취득 과정</b>
+        <p>COS, COS Pro 자격증 취득을 통해 높은 수준의 프로그래밍 활용 능력이 있음을 증명할 수 있습니다. </p>
+    </div>
+    <div class="item">
+        <img src="" alt="icon">
+        <b>대회 참여</b>
+        <p>메타버스개발자 경진대회에 출전하여 매년 우수한 성적을 거두고 있습니다. (2022년 최우수상, 2023년 우수상) </p>
+    </div>
+    <div class="item">
+        <img src="" alt="icon">
+        <b>전문성 있는 강사진 </b>
+        <p>컴퓨터공학과 컴퓨터교육을 전공하였으며 10년 이상의 실무 개발 경력을 보유하고 있습니다. </p>
+    </div>
+    <div class="item">
+        <img src="" alt="icon">
+        <b>최적의 환경</b>
+        <p>학생들이 프로그래밍 과제를 수행하는데 어떠한 부족함도 없도록 최적의 시설을 갖추고 있습니다. </p>
+    </div>
+</div>
+
+<div class="cont-title-wrap">
+    <strong>커리큘럼</strong>
+</div>
+
+<div class="section2">
+    <div class="item">
+        <img src="" alt="사진">
+        <span>96차시</span>
+        <strong>레고 클래식</strong>
+        <p>자유로운 개방형 놀이의 세계를 열어주고, 창의적 자기 표현 능력을 길러줍니다.</p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>20차시</span>
+        <strong>로봇코딩 Lv. 1</strong>
+        <p>다양한 부품을 활용하여 로봇을 조립하며 차원적 사고를, 코딩을 통해 움직임을 구현하여 논리적 사고를 기를 수 있습니다.</p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>20차시</span>
+        <strong>로봇코딩 Lv. 2</strong>
+        <p>다양한 부품을 활용하여 로봇을 조립하며 차원적 사고를, 코딩을 통해 움직임을 구현하여 논리적 사고를 기를 수 있습니다.</p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>20차시</span>
+        <strong>로봇코딩 Lv. 3</strong>
+        <p>다양한 부품을 활용하여 로봇을 조립하며 차원적 사고를, 코딩을 통해 움직임을 구현하여 논리적 사고를 기를 수 있습니다.</p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>20차시</span>
+        <strong>로봇코딩 Lv. 4</strong>
+        <p>다양한 부품을 활용하여 로봇을 조립하며 차원적 사고를, 코딩을 통해 움직임을 구현하여 논리적 사고를 기를 수 있습니다.</p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>48차시</span>
+        <strong>사고력 코딩</strong>
+        <p>다양한 부품을 활용하여 로봇을 조립하며 차원적 사고를, 코딩을 통해 움직임을 구현하여 논리적 사고를 기를 수 있습니다.</p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>12차시</span>
+        <strong>COS 1급</strong>
+        <p></p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>12차시</span>
+        <strong>COS 2급</strong>
+        <p></p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>12차시</span>
+        <strong>COS 3급</strong>
+        <p></p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>96차시</span>
+        <strong>로블록스 스튜디오 Lv. 1 모델링</strong>
+        <p></p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>96차시</span>
+        <strong>로블록스 스튜디오 Lv. 2 코딩</strong>
+        <p></p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>96차시</span>
+        <strong>로블록스 스튜디오 Lv. 3 프로젝트</strong>
+        <p></p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>24차시</span>
+        <strong>파이썬 Lv. 1 문법</strong>
+        <p></p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>24차시</span>
+        <strong>파이썬 Lv. 2 알고리즘 강화</strong>
+        <p></p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>24차시</span>
+        <strong>파이썬 Lv. 3 프로젝트</strong>
+        <p></p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>24차시</span>
+        <strong>파이썬 Lv. 4 인공지능</strong>
+        <p></p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>96차시</span>
+        <strong>유니티</strong>
+        <p></p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>24차시</span>
+        <strong>ITQ, DIAT 한글</strong>
+        <p></p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>24차시</span>
+        <strong>ITQ, DIAT 파워포인트</strong>
+        <p></p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>24차시</span>
+        <strong>ITQ, DIAT 엑셀</strong>
+        <p></p>
+        <a href="#">자세히 보기</a>
+    </div>
+    <div class="item">
+        <img src="" alt="사진">
+        <span>20차시</span>
+        <strong>겨울방학특강</strong>
+        <p></p>
+        <a href="#">자세히 보기</a>
+    </div>
+</div>
+
+<div class="page-title">
+    <strong>레고 클래식</strong>
+</div>
+<div class="section-title">
+    <strong>수업 flow</strong>
+</div>
+<div class="description">
+    동화책 읽기 ＞ 인상적이었던 내용 말하기 ＞ 이야기 재구성하기 ＞ 레고 블록으로 장면 구현하기
+</div>
+<div class="section-title">
+    <strong>차시별 수업내용</strong>
+</div>
+<div class="tbl-wrap">
+    <table>
+        <thead>
+            <tr>
+                <th>차시</th>
+                <th>내용</th>
+                <th>과제</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>헨젤과 그레텔</td>
+                <td>조약돌을 떨어뜨리는 헨젤</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>미운 아기 오리</td>
+                <td>백조가 되어 하늘을 나는 아기오리</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>브레멘 음악대</td>
+                <td>악기를 연주하는 고양이</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>신데렐라</td>
+                <td>12시를 알려주는 시계</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>차시</th>
+                <th>내용</th>
+                <th>과제</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>5</td>
+                <td>헨젤과 그레텔</td>
+                <td>조약돌을 떨어뜨리는 헨젤</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>미운 아기 오리</td>
+                <td>백조가 되어 하늘을 나는 아기오리</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>브레멘 음악대</td>
+                <td>악기를 연주하는 고양이</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>신데렐라</td>
+                <td>12시를 알려주는 시계</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="section-title">
+    <strong>현장 스케치</strong>
+</div>
+<div class="section3">
+    <div class="section3-slider-wrap">
+        <div class="section3-slider">
+            <img src="" alt="사진">
+            <img src="" alt="사진">
+            <img src="" alt="사진">
+            <img src="" alt="사진">
+            <img src="" alt="사진">
+            <img src="" alt="사진">
+        </div>
+    </div>
+</div>
+<div class="section-title">
+    <strong>학생 작품</strong>
+</div>
+<div class="section4">
+    <div class="video-wrap">
+
+    </div>
+    <div class="info-wrap">
+        <span class="blue">파이썬</span>
+        <strong>야간자율학습 얼굴인식 출결 프로그램</strong>
+        <p>자유로운 개방형 놀이의 세계를 열어주고, 창의적 자기 표현 능력을 길러줍니다.</p>
+        <i>고등학교 2학년 김○○ 학생 작품</i>
+    </div>
+</div>
+<div class="tab-wrap">
+    <a href="#" class="on">전체보기</a>
+    <a href="#">레고 클래식</a>
+    <a href="#">로봇 코딩</a>
+    <a href="#">블록 코딩</a>
+    <a href="#">로블록스 스튜디오</a>
+    <a href="#">파이썬</a>
+    <a href="#">유니티</a>
+</div>
+<div class="section5">
+    <div class="item">
+        <span class="blue">파이썬</span>
+        <strong>야간자율학습 얼굴인식 출결 프로그램</strong>
+        <p>자유로운 개방형 놀이의 세계를 열어주고, 창의적 자기 표현 능력을 길러줍니다.</p>
+        <i>고등학교 2학년 김○○ 학생 작품</i>
+    </div>
+    <div class="item">
+        <span class="green">파이썬</span>
+        <strong>야간자율학습 얼굴인식 출결 프로그램</strong>
+        <p>자유로운 개방형 놀이의 세계를 열어주고, 창의적 자기 표현 능력을 길러줍니다.</p>
+        <i>고등학교 2학년 김○○ 학생 작품</i>
+    </div>
+    <div class="item">
+        <span class="yellow">파이썬</span>
+        <strong>야간자율학습 얼굴인식 출결 프로그램</strong>
+        <p>자유로운 개방형 놀이의 세계를 열어주고, 창의적 자기 표현 능력을 길러줍니다.</p>
+        <i>고등학교 2학년 김○○ 학생 작품</i>
+    </div>
+    <div class="item">
+        <span class="pink">파이썬</span>
+        <strong>야간자율학습 얼굴인식 출결 프로그램</strong>
+        <p>자유로운 개방형 놀이의 세계를 열어주고, 창의적 자기 표현 능력을 길러줍니다.</p>
+        <i>고등학교 2학년 김○○ 학생 작품</i>
+    </div>
+    <div class="item">
+        <span class="orange">파이썬</span>
+        <strong>야간자율학습 얼굴인식 출결 프로그램</strong>
+        <p>자유로운 개방형 놀이의 세계를 열어주고, 창의적 자기 표현 능력을 길러줍니다.</p>
+        <i>고등학교 2학년 김○○ 학생 작품</i>
+    </div>
+    <div class="item">
+        <span class="purple">파이썬</span>
+        <strong>야간자율학습 얼굴인식 출결 프로그램</strong>
+        <p>자유로운 개방형 놀이의 세계를 열어주고, 창의적 자기 표현 능력을 길러줍니다.</p>
+        <i>고등학교 2학년 김○○ 학생 작품</i>
+    </div>
+</div>
+<div class="paging">
+    <a class="bt first">처음</a>
+    <a class="bt prev">이전</a>
+    <a class="num on">1</a>
+    <a class="num">2</a>
+    <a class="num">3</a>
+    <a class="num">4</a>
+    <a class="num">5</a>
+    <a class="bt next">다음</a>
+    <a class="bt last">마지막</a>
+</div>
+
+<div class="page-title">
+    <strong>학원소식</strong>
+</div>
+<div class="section6">
+    <div class="item">
+        <a href="#">
+            <img src="" alt="사진">
+        </a>
+        <strong>2024 어버이날 이벤트</strong>
+        <span>2024-05-01</span>
+    </div>
+    <div class="item">
+        <a href="#">
+            <img src="" alt="사진">
+        </a>
+        <strong>2024 어버이날 이벤트</strong>
+        <span>2024-05-01</span>
+    </div>
+    <div class="item">
+        <a href="#">
+            <img src="" alt="사진">
+        </a>
+        <strong>2024 어버이날 이벤트</strong>
+        <span>2024-05-01</span>
+    </div>
+    <div class="item">
+        <a href="#">
+            <img src="" alt="사진">
+        </a>
+        <strong>2024 어버이날 이벤트</strong>
+        <span>2024-05-01</span>
+    </div>
+    <div class="item">
+        <a href="#">
+            <img src="" alt="사진">
+        </a>
+        <strong>2024 어버이날 이벤트</strong>
+        <span>2024-05-01</span>
+    </div>
+    <div class="item">
+        <a href="#">
+            <img src="" alt="사진">
+        </a>
+        <strong>2024 어버이날 이벤트</strong>
+        <span>2024-05-01</span>
+    </div>
+    <div class="item">
+        <a href="#">
+            <img src="" alt="사진">
+        </a>
+        <strong>2024 어버이날 이벤트</strong>
+        <span>2024-05-01</span>
+    </div>
+    <div class="item">
+        <a href="#">
+            <img src="" alt="사진">
+        </a>
+        <strong>2024 어버이날 이벤트</strong>
+        <span>2024-05-01</span>
+    </div>
+</div>
+<div class="paging">
+    <a class="bt first">처음</a>
+    <a class="bt prev">이전</a>
+    <a class="num on">1</a>
+    <a class="num">2</a>
+    <a class="num">3</a>
+    <a class="num">4</a>
+    <a class="num">5</a>
+    <a class="bt next">다음</a>
+    <a class="bt last">마지막</a>
+</div>
+{% endblock content %}
